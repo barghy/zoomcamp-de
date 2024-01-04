@@ -4,6 +4,6 @@ RUN apt-get install wget
 RUN pip install pandas sqlalchemy psycopg2
 
 WORKDIR /app
-COPY upload_data.py upload_data.py
+COPY load_data.py load_data.py
 
-ENTRYPOINT [ "python", "upload_data.py" ]
+ENTRYPOINT [ "python", "load_data.py" ]
