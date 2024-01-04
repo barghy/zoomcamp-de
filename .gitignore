@@ -1,3 +1,9 @@
+# ignore notebook checkpoints
 .ipynb_checkpoints/
+
+# ignore data
 ny_taxi_postgres_data/
 *.csv
+
+# ignore terraform code and keys
+terraform/
