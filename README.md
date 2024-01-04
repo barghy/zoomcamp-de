@@ -6,4 +6,4 @@ A repository for the Data Talks Club Data Engineering Zoomcamp course
 
 ☁️ `terraform` deploys google cloud platform resources using terraform infrastructure as code
 
-> terraform folder is only deploy locally
+> terraform folder is part of .gitignore so will not be visible in the repo
