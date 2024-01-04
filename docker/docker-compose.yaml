@@ -27,4 +27,5 @@ networks:
     name: pg-network
 volumes:
   pg-volume:
+    external: true
     name: pg-volume
