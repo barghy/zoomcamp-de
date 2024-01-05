@@ -1,16 +1,25 @@
 # ignore notebook checkpoints
-.ipynb_checkpoints/
-
-# ignore data
-ny_taxi_postgres_data/
-*.csv
-
-# ignore terraform
-terraform/
+.ipynb_checkpoints
+ipynb_checkpoints
 
 # ignore google
 .google/
 
-# ignore airflwo docker-compose
-airflow/docker-compose.*
-airflow/scripts/
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# Ignore override files as they are usually used to override resources locally and so
+# are not checked in
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore CLI configuration files
+.terraformrc
+terraform.rc
+
