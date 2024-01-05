@@ -1,11 +1,13 @@
 variable "gcp_project" {
   description = "Project Name for Google Cloud Resources"
   default     = "zoomcamp-de-410214"
+  type        = string
 }
 
 variable "gcp_region" {
   description = "Region for Google Cloud Resources"
   default     = "europe-west2"
+  type        = string
 }
 
 variable "gcp_location" {
@@ -26,4 +28,5 @@ variable "gcs_storage_class" {
 variable "bq_dataset_name" {
   description = "Dataset Name for Google Big Query"
   default     = "zoomcamp"
+  type        = string
 }
