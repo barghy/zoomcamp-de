@@ -7,3 +7,5 @@ A repository for the Data Talks Club Data Engineering Zoomcamp course
 ☁️ `terraform` deploys google cloud platform resources using terraform infrastructure as code
 
 > terraform folder is part of .gitignore so will not be visible in the repo
+
+🌬️ `airflow` deploys airflow for orchestration using docker compose

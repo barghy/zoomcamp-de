@@ -5,5 +5,12 @@
 ny_taxi_postgres_data/
 *.csv
 
-# ignore terraform code and keys
+# ignore terraform
 terraform/
+
+# ignore google
+.google/
+
+# ignore airflwo docker-compose
+airflow/docker-compose.*
+airflow/scripts/
